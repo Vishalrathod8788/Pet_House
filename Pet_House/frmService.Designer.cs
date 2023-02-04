@@ -279,7 +279,7 @@
             this.panel7.Location = new System.Drawing.Point(417, 475);
             this.panel7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(555, 36);
+            this.panel7.Size = new System.Drawing.Size(544, 36);
             this.panel7.TabIndex = 108;
             // 
             // rbtNo
