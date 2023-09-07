@@ -13,11 +13,8 @@ namespace pet_house
         String con;
         public String connection()
         {
-            //Work at Home
             con = @"Data Source=VISHAL\SQLHPSERVER;Initial Catalog=pet_house;Integrated Security=True";
 
-            //Work at Collage
-            //con = @"Data Source=L3-178;Initial Catalog=pet_house;Integrated Security=True";
             return con;
         }
     }
