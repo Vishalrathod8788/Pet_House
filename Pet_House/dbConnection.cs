@@ -10,7 +10,7 @@ namespace pet_house
 {
     class dbConnection
     {
-        String con;
+        String Conn;
 
         public String connection()
         {
