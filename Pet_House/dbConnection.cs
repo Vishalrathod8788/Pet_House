@@ -15,7 +15,7 @@ namespace pet_house
         public String connection()
         {
             Conn = @"Data Source=VISHAL\SQLHPSERVER;Initial Catalog=pet_house;Integrated Security=True";
-            return con;
+            return Conn;
         }
     }
 }
