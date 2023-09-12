@@ -13,7 +13,7 @@ namespace pet_house
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new pet_house());
+            Application.Run(new frmLoading());
         }
     }
 }
