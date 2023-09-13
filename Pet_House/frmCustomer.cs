@@ -106,7 +106,6 @@ namespace pet_house
 
         private void btn_Click(object sender, EventArgs e)
         {
-
             if (txtName.Text == "")
             {
                 MessageBox.Show("Name is Not Valid", "Invalid", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
