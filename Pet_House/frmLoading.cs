@@ -22,7 +22,7 @@ namespace pet_house
         int starP = 0;
         private void timer1_Tick(object sender, EventArgs e)
         {
-            starP += 5;
+            starP += 3;
             progressBar1.Value = starP;
             lblPorcentaje.Text = starP + "%";
             if (progressBar1.Value == 100)
