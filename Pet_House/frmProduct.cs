@@ -169,6 +169,7 @@ namespace pet_house
             {
                 if (MessageBox.Show("Are You Sure you want to Items Add?", "Product Items", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
+
                     string Qry;
                     Qry = "insert into tbl_bill_pro (bp_id, c_id, bp_date, pro_id, qty, pro_mvp, bp_total)";
                     Qry += "VALUES((SELECT ISNULL(MAX(bp_id), 0) + 1 from tbl_bill_pro) ,";
