@@ -55,6 +55,7 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.tbPetService = new System.Windows.Forms.TabPage();
+            this.label2 = new System.Windows.Forms.Label();
             this.btnSave = new System.Windows.Forms.Button();
             this.txtDays = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -70,7 +71,6 @@
             this.label14 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.tbControl.SuspendLayout();
             this.tbPetInfo.SuspendLayout();
@@ -215,7 +215,7 @@
             this.panel6.Location = new System.Drawing.Point(417, 327);
             this.panel6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(576, 36);
+            this.panel6.Size = new System.Drawing.Size(555, 36);
             this.panel6.TabIndex = 109;
             // 
             // rbtNonAC
@@ -349,7 +349,7 @@
             this.panel8.Location = new System.Drawing.Point(417, 382);
             this.panel8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(576, 36);
+            this.panel8.Size = new System.Drawing.Size(555, 36);
             this.panel8.TabIndex = 107;
             // 
             // label12
@@ -442,6 +442,18 @@
             this.tbPetService.TabIndex = 5;
             this.tbPetService.Text = "Pet Service";
             this.tbPetService.ToolTipText = "Pet Service";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.DarkCyan;
+            this.label2.Font = new System.Drawing.Font("Comic Sans MS", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(612, 102);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(198, 46);
+            this.label2.TabIndex = 146;
+            this.label2.Text = "Pet Service";
             // 
             // btnSave
             // 
@@ -605,18 +617,6 @@
             this.label17.Size = new System.Drawing.Size(196, 30);
             this.label17.TabIndex = 133;
             this.label17.Text = "Select Service :";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.DarkCyan;
-            this.label2.Font = new System.Drawing.Font("Comic Sans MS", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(612, 102);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(198, 46);
-            this.label2.TabIndex = 146;
-            this.label2.Text = "Pet Service";
             // 
             // frmService
             // 
